@@ -1,0 +1,149 @@
+html,
+body{
+background-color:  rgb(10, 5, 1);
+font-family:cursive, sans-serif;
+height: 100%;
+}
+.centrar{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 250px;
+  align-items: center;
+  float: left;
+  color: azure;
+  font-size: 20px;
+  cursor: pointer;
+}
+nefliz{
+  width: 50%;
+  height: 50%;
+}
+.imagen  {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  padding: 4px;
+  filter: brightness(50%);
+}
+
+.imagen:hover{
+transform: rotate(-3deg);
+filter: brightness(100%);
+background-color: rgb(242, 183, 242);
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 150px;
+  color: azure;
+  cursor: pointer;
+  
+}
+
+.h1:hover{
+  color: aqua;
+  transform: rotate(-3deg);
+}
+
+.titulo:hover{
+  color: aqua;
+  transform: rotate(-3deg);
+}
+.pie {
+  text-align: center;
+  font-size: 20px;
+  color: azure;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+
+.pie:hover{
+  color: aqua;
+  transform: rotate(-3deg);
+}
+@media screen and (max-width:900px){
+  html,
+  body{
+    height: 100%;
+  }
+  .centrar{
+    display: flex;
+    justify-content: center;
+   }
+
+  .imagen  {
+    height: 80px;
+    width: 80px;
+    border-radius: 10%;
+    padding: 3px;
+    filter: brightness(50%);
+  }
+  .pie {
+    text-align: center;
+    font-size: 17px;
+    color: azure;
+    margin-top: 2%;
+    cursor: pointer;
+  
+  }
+  .contenedor{
+    height: 120px;
+    font-size: 15px;
+  }
+   .h1{
+    font-size: 13px;
+   }
+  }
+
+  @media screen and (max-width:500px){
+    html,
+    body{
+      height: 100%;
+    }
+
+    .centrar{
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+
+     }
+
+    .imagen  {
+      height: 100px;
+      width: 100px;
+      border-radius: 10%;
+      padding: 2px;
+      filter: brightness(50%);
+    }
+
+    .imagen:hover{
+      transform: rotate(-3deg);
+      filter: brightness(100%);
+      background-color: rgb(242, 183, 242);
+      }
+
+    .contenedor{
+      font-size: 12px;
+    }
+
+    .pie {
+      text-align: center;
+      font-size: 10px;
+      color: azure;
+      margin-top: 8%;
+      cursor: pointer;
+    
+    }
+    .h1{
+      font-size: 9px;
+     }
+  }
+
+
