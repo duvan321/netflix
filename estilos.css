@@ -1,17 +1,16 @@
 html,
-body{
-background-color:  rgb(10, 5, 1);
-font-family:cursive, sans-serif;
-height: 100%;
+body {
+  background-color: rgb(10, 5, 1);
+  font-family: cursive, sans-serif;
+  height: 100%;
 }
-.centrar{
+.centrar {
   display: flex;
   justify-content: center;
-  
 }
 
 .contenedor {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 250px;
@@ -22,7 +21,7 @@ height: 100%;
   cursor: pointer;
 }
 
-.imagen  {
+.imagen {
   height: 200px;
   width: 200px;
   border-radius: 10%;
@@ -30,10 +29,10 @@ height: 100%;
   filter: brightness(50%);
 }
 
-.imagen:hover{
-transform: rotate(-3deg);
-filter: brightness(100%);
-background-color: rgb(242, 183, 242);
+.imagen:hover {
+  transform: rotate(-3deg);
+  filter: brightness(100%);
+  background-color: rgb(242, 183, 242);
 }
 
 .h1 {
@@ -43,12 +42,12 @@ background-color: rgb(242, 183, 242);
   cursor: pointer;
 }
 
-.h1:hover{
+.h1:hover {
   color: aqua;
   transform: rotate(-3deg);
 }
 
-.titulo:hover{
+.titulo:hover {
   color: aqua;
   transform: rotate(-3deg);
 }
@@ -58,24 +57,23 @@ background-color: rgb(242, 183, 242);
   color: azure;
   margin-top: 20px;
   cursor: pointer;
-
 }
 
-.pie:hover{
+.pie:hover {
   color: aqua;
   transform: rotate(-3deg);
 }
-@media screen and (max-width:900px){
+@media screen and (max-width: 900px) {
   html,
-  body{
+  body {
     height: 100%;
   }
-  .centrar{
+  .centrar {
     display: flex;
     justify-content: center;
-   }
+  }
 
-  .imagen  {
+  .imagen {
     height: 80px;
     width: 80px;
     border-radius: 10%;
@@ -88,65 +86,57 @@ background-color: rgb(242, 183, 242);
     color: azure;
     margin-top: 2%;
     cursor: pointer;
-  
   }
-  .contenedor{
+  .contenedor {
     height: 120px;
     font-size: 15px;
   }
-   .h1{
+  .h1 {
     font-size: 13px;
-   }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html,
+  body {
+    height: 100%;
   }
 
-  @media screen and (max-width:500px){
-    html,
-    body{
-      height: 100%;
-    }
-
-    .centrar{
-      display: flex;
-      justify-content: center;
-      flex-direction: column-reverse;
-
-     }
-
-    .imagen  {
-      height: 100px;
-      width: 100px;
-      border-radius: 10%;
-      padding: 2px;
-      filter: brightness(50%);
-    }
-
-    .imagen:hover{
-      transform: rotate(-3deg);
-      filter: brightness(100%);
-      background-color: rgb(242, 183, 242);
-      }
-
-    .contenedor{
-      font-size: 12px;
-    }
-
-    
-
-    .pie {
-      text-align: center;
-      font-size: 10px;
-      color: azure;
-      margin-top: 8%;
-      cursor: pointer;
-    
-    }
-    .h1{
-      font-size: 9px;
-     }
-     a{
-      display: flex;
-     
-     }
+  .centrar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
   }
 
+  .imagen {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    padding: 2px;
+    filter: brightness(50%);
+  }
 
+  .imagen:hover {
+    transform: rotate(-3deg);
+    filter: brightness(100%);
+    background-color: rgb(242, 183, 242);
+  }
+
+  .contenedor {
+    font-size: 12px;
+  }
+
+  .pie {
+    text-align: center;
+    font-size: 10px;
+    color: azure;
+    margin-top: 8%;
+    cursor: pointer;
+  }
+  .h1 {
+    font-size: 9px;
+  }
+  a {
+    display: flex;
+  }
+}
