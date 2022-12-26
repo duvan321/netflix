@@ -19,6 +19,7 @@ body {
   color: azure;
   font-size: 20px;
   cursor: pointer;
+  transition: color 3s;
 }
 
 .imagen {
@@ -27,6 +28,9 @@ body {
   border-radius: 10%;
   padding: 4px;
   filter: brightness(50%);
+  transition: filter 2s;
+  transition: transform 2s;
+  transition: background-color 2s;
 }
 
 .imagen:hover {
@@ -40,13 +44,16 @@ body {
   margin-top: 150px;
   color: azure;
   cursor: pointer;
+  transition: color 2s;
 }
 
 .h1:hover {
   color: aqua;
   transform: rotate(-3deg);
 }
-
+.titulo {
+  transition: color 2s;
+}
 .titulo:hover {
   color: aqua;
   transform: rotate(-3deg);
@@ -57,6 +64,7 @@ body {
   color: azure;
   margin-top: 20px;
   cursor: pointer;
+  transition: color 2s;
 }
 
 .pie:hover {
