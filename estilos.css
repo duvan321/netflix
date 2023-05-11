@@ -2,7 +2,6 @@ html,
 body {
   background-color: rgb(10, 5, 1);
   font-family: cursive, sans-serif;
-  height: 100%;
 }
 .centrar {
   display: flex;
@@ -72,10 +71,6 @@ body {
   transform: rotate(-3deg);
 }
 @media screen and (max-width: 900px) {
-  html,
-  body {
-    height: 100%;
-  }
   .centrar {
     display: flex;
     justify-content: center;
@@ -105,11 +100,6 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  html,
-  body {
-    height: 100%;
-  }
-
   .centrar {
     display: flex;
     justify-content: center;
